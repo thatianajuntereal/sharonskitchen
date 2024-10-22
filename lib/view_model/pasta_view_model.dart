@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sharonskitchen/model/meal.dart';
-import '../services/api_service.dart';
+import 'package:sharonskitchen/services/api_service.dart';
 
 class PastaViewModel extends ChangeNotifier {
   final ApiService _apiService = ApiService();

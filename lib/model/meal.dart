@@ -16,8 +16,7 @@ class Meal {
       id: json['idMeal'],
       name: json['strMeal'],
       thumbnail: json['strMealThumb'],
-      price: (10 + (50 * (json['idMeal'].hashCode % 100) / 100))
-          .toDouble(), // Random price between 10 to 60
+      price: (10 + (100 * (json['idMeal'].hashCode % 100) / 100)).toDouble(),
     );
   }
 }

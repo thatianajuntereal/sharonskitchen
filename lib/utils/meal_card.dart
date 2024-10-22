@@ -4,7 +4,6 @@ import 'package:sharonskitchen/model/meal.dart';
 import 'package:sharonskitchen/utils/colored_button.dart';
 import 'package:sharonskitchen/utils/price_tag.dart';
 import 'package:sharonskitchen/view/order_screen.dart';
-import 'package:sharonskitchen/view/pasta_list_screen.dart';
 
 class MealCard extends StatelessWidget {
   final Meal meal;

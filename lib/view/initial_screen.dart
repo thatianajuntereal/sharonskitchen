@@ -22,7 +22,6 @@ class InitialScreen extends StatelessWidget {
           Container(
             color: Colors.black.withOpacity(0.6),
           ),
-          // Content in the center
           Center(
             child: Column(
               mainAxisSize: MainAxisSize.min,

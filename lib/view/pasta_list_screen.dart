@@ -67,13 +67,13 @@ class PastaListScreen extends StatelessWidget {
                   ),
                 ),
                 SizedBox(height: 40.px),
-                const TabBarWidget(), // Horizontal Tab
+                const TabBarWidget(),
                 Expanded(
                   child: CarouselSlider.builder(
                     itemCount: viewModel.meals.length,
                     itemBuilder: (context, index, realIndex) {
                       final meal = viewModel.meals[index];
-                      return MealCard(meal: meal); // Meal card widget
+                      return MealCard(meal: meal);
                     },
                     options: CarouselOptions(
                       height: 400,
@@ -92,7 +92,7 @@ class PastaListScreen extends StatelessWidget {
           },
         ),
       ),
-      bottomNavigationBar: const BottomNavBar(), // Bottom nav bar widget
+      bottomNavigationBar: const BottomNavBar(),
     );
   }
 }
